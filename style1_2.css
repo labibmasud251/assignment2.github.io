@@ -1,0 +1,171 @@
+body{
+    background-color: ghostwhite;
+}
+
+header{
+    background-color: #e8e8e8;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-bottom: 30px;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+}
+.nav_menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.nav_menu li{
+    min-width: 8em;
+    float: left;
+    margin-left: 95px;
+    margin-right: 0.5em;
+    text-align: center;
+}
+
+#main_body{
+    background: ghostwhite;
+}
+
+#convert{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited{
+    background-color: #D4D2A5;
+    display: block;
+    padding: .2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1em 0 0.2em 0;
+    -webkit-border-radius:3px;
+    -noz-border-radius:3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px #D4D2A5;
+}
+
+
+#logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#name{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+
+.nav_menu li a:active{
+    color: whitesmoke;
+}
+
+.nav_menu li a:hover{
+    background-color: #7CA982;
+    -webkit-transform:scale(2,2);
+    -ns-transform:scale(2,2);
+    transform: scale(2,2);
+}
+
+.nav_menu a{
+    display: block;
+    width: 80px;
+    
+}
+.clear{
+    clear: both;
+}
+#welcome_div{
+    background-color: #e8e8e8;
+    float: left;
+    width: 65%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    height: 80px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#news_letter{
+    background-color: #e8e8e8;
+    float: left;
+    padding: 15px;
+    width=25%;
+    height: 80px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#left_div{
+    background-color: #e8e8e8;
+    float: left;
+    width: 40%;
+    height: 800px;
+    padding: 10px;
+    border: 2px solid;margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#left_div img{
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
+#right_div{
+    background-color: #e8e8e8;
+    float: right;
+    width: 40%;
+    height: 800px;
+    padding: 10px;
+    border: 2px solid;margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#right_div img{
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
+footer{
+    height: auto;
+    background-color: rgba(0,0,0,.1);
+    color: black;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.modify_date{
+    font-size: .7em;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    float: left;
+    text-align: left;
+}
+.copyright_status{
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    float: right;
+    text-align: right;
+}
+p,h1,h2,h3,h4,h5,h6,header,th,tr,td,footer {
+    font-family: 'Ubuntu';
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Task1.2</title>
+        <link rel="shortcut icon" type="image/x-icon" href="my_icon.png">
+        <link rel="stylesheet" type="text/css" href="style1_2.css">
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <script src="script1_2.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <header>
+                <div id="logo">
+                    <h2 id="name">CSE391:Programming For Internet</h2>
+                    <h4 id="name">Assignment02</h4>
+                    <h4 id="name">Task 1.2</h4>
+                </div>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="task1_1.html">Task1.1</a></li>
+                    <li><a href="task2.html">Task02</a></li>
+                    <li><a href="task3.html">Task03</a></li>
+                </ul>
+                <div class="clear"></div>
+            </header>
+            
+            <section id="main_body">
+                <div id="convert">
+                    <label>Convert : </label><input type="number" id="number" onkeypress="return isNaN(event)" onkeyup="showResult()">
+                    <select id="selection" onchange="showResult()">
+                        <option>lb to kg</option>
+                        <option>kg to lb</option>
+                    </select>
+            
+            
+                    <span id="result"></span>
+                </div>
+                
+            </section>
+            
+            <div class="clear"></div>
+            
+            
+            <footer> 
+                <div class="modify_date">
+                    <script language="Javascript">
+                        document.write("Last Modification: " + new Date(document.lastModified) +"");
+                        document.write("<br>Opening From: https://www."+window.location.hostname+window.location.pathname);
+                    </SCRIPT>
+                </div>
+                
+            </footer>
+        </div>
+
+    </body>
+    
+</html>
+
+
+
+
+

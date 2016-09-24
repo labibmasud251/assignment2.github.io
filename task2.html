@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Task 02</title>
+        <link rel="shortcut icon" type="image/x-icon" href="my_icon.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <script src="script2.js"></script>
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <header>
+                <div id="logo">
+                    <h2 id="name">CSE391:Programming For Internet</h2>
+                    <h4 id="name">Assignment02</h4>
+                    <h4 id="name">Task 02</h4>
+                </div>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="task1_1.html">Task1.1</a></li>
+                    <li><a href="task1_2.html">Task1.2</a></li>
+                    <li><a href="task3.html">Task 03</a></li>
+                </ul>
+                <div class="clear"></div>
+            </header>
+            
+            <section id="main_body"><br>
+                <h3 style="margin-left:35%">Enter The Series Using Comma (,) Separator</h3>
+                <div style="margin: auto;float: left;position: relative;left: 45%;margin-top: 5%;}">
+                    
+		<input placeholder="10,5,8,30" id="userinput" onkeyup="calc()" onkeypress="return isNumber(event)">
+		<p id="showAvg"></p>
+		<p id="showSum"></p>
+		<p id="showMax"></p>
+		<p id="showMin"></p>
+		<p id="showRev"></p>
+	</div>
+                
+            </section>
+            
+            <div class="clear"></div>
+            
+            
+            <footer> 
+                <div class="modify_date">
+                    <script language="Javascript">
+                        document.write("Last Modification: " + new Date(document.lastModified) +"");
+                        document.write("<br>Opening From: https://www."+window.location.hostname+window.location.pathname);
+                    </SCRIPT>
+                </div>
+            </footer>
+        </div>
+
+    </body>
+    
+</html>
+
+
+
+
+

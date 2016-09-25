@@ -6,6 +6,13 @@ window.onload=function(){
                 "Fortune Favours The Brave",
                 "Start where you are. Use what you have. Do what you can.",
                 "Do not take life too seriously. You will never get out of it alive.",
+                "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
+                "A creative man is motivated by the desire to achieve, not by the desire to beat others.",
+                "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
+                "People who think they know everything are a great annoyance to those of us who do.",
+                "Get your facts first, then you can distort them as you please.",
+                "Always do whatever's next.",
+                "Atheism is a non-prophet organization.",
                 "Hapiness is not something ready made. It comes from your own actions."];
 
 

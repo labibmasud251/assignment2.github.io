@@ -16,7 +16,7 @@ window.onload=function(){
                 "Hapiness is not something ready made. It comes from your own actions."];
 
 
-    var arr_index=(Math.floor(Math.random()*7));
+    var arr_index=(Math.floor(Math.random()*13));
     
     document.getElementById("quote").innerHTML=quotes[arr_index];
 

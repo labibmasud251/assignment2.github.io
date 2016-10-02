@@ -1,18 +1,18 @@
 body{
-    background-color: ghostwhite;
+    background-color: white;
 }
 
 header{
     background-color: #e8e8e8;
     margin-bottom: 30px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 2px 2px 1px #888888;
     padding-bottom: 30px;
 }
 .container{
     width: 960px;
     margin: 0 auto;
-    background-color: ghostwhite;
-	border: thick;
+    background-color: white;
+	border: thin;
 }
 .nav_menu{
     list-style: none;
@@ -42,7 +42,7 @@ header{
     -webkit-border-radius:3px;
     -noz-border-radius:3px;
     border-radius: 3px;
-    box-shadow: 3px 3px 3px 3px #D4D2A5;
+    box-shadow: 1px 1px 1px 1px #D4D2A5;
 }
 button{
     width: 100%;
@@ -51,9 +51,9 @@ button{
 
 button:hover{
     background-color: #7CA982;
-    -webkit-transform:scale(2,2);
-    -ns-transform:scale(2,2);
-    transform: scale(1,1.5);
+    -webkit-transform:scale(1.2,1.2);
+    -ns-transform:scale(1.2,1.2);
+    transform: scale(1,1.25);
 }
 
 #logo img{
@@ -87,9 +87,9 @@ a:active{
 
 .nav_menu li a:hover{
     background-color: #7CA982;
-    -webkit-transform:scale(2,2);
-    -ns-transform:scale(2,2);
-    transform: scale(2,2);
+    -webkit-transform:scale(1.2,1.2);
+    -ns-transform:scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .nav_menu a{
@@ -108,7 +108,7 @@ a:active{
     padding: 15px;
     margin-left: 10px;
     height: 80px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 2px 2px 1px #888888;
 }
 #news_letter{
     background-color: #e8e8e8;
@@ -117,7 +117,7 @@ a:active{
     width=25%;
     height: 80px;
     margin-bottom: 30px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 2px 2px 1px #888888;
 }
 #left_div{
     background-color: #e8e8e8;
@@ -126,7 +126,7 @@ a:active{
     height: 350px;
     padding: 10px;
     border: 2px solid;margin: 20px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 2px 2px 1px #888888;
 }
 #left_div img{
     max-height: 100px;
@@ -141,7 +141,7 @@ a:active{
     height: 350px;
     padding: 10px;
     border: 2px solid;margin: 20px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 2px 2px 1px #888888;
 }
 #right_div img{
     max-height: 100px;
@@ -155,7 +155,7 @@ footer{
     padding: 0;
     margin: 0;
     margin-top: 10px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 2px 2px 1px #888888;
 }
 .modify_date{
     padding-top: 5px;
@@ -172,7 +172,7 @@ footer{
     text-align: right;
 }
 p,h1,h2,h3,h4,h5,h6,header,th,tr,td,footer,button, .magicButton {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Sans Serif', cursive;
 }
 
 .center{

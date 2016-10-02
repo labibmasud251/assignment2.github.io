@@ -48,7 +48,7 @@ function btn1(){
 
 function btn2(){
         document.getElementById("innerbox").style.backgroundColor="#8E24AA ";
-        document.getElementById("innerbox").style.borderColor="#000000";
+        document.getElementById("innerbox").style.borderColor="#000";
         document.getElementById("innerbox").style.color="#c8e6c9";
         document.getElementById("innerbox").style.fontFamily="cursive"
     }
